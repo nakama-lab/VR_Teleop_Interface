@@ -119,7 +119,7 @@ The control node maps device inputs to Cartesian commands.
 ## User testing
 
 For Automated data collection a bash script is added wich will generate a rosbag with topics of interes, measure task execution, and allow to write down aditional notes for each task. `newTest.sh`
-
+An updated version was added that has a simple GUI and save the data in a SQLite file for better analysis. `data_capture.py`
 ---
 
 ## Diagrams
